@@ -16,7 +16,7 @@ html {
   
 nav{
     display: flex;
-    height: 55px;
+    height: 54px;
     justify-content: space-around;
     align-items: center;
     
