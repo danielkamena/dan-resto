@@ -23,7 +23,7 @@ nav{
     
 }
 .loge img{
-    width: 20%;
+    width: 30%;
     
 
 
@@ -63,6 +63,7 @@ nav a:hover{
 }
 .btn2 a{
     text-decoration: none;
+    border: 1px solid rgb(4, 101, 167);
     color: black;
     background-color: #ffffff;
     font-weight: 700;
