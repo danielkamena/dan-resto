@@ -149,11 +149,22 @@ section#acueil p{
 
 }
 #acueil h1{
-     font-family: "Dxlactos";
-     color: rgb(255, 255, 255);
-     text-shadow: 2px 2px 3px black;
-     font-size: 50px;
+    font-family: "Dxlactos";
+    font-size: 50px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+   
+    background: url('img m/pattern.jpg');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: animate 3s linear 3s infinite alternate;
 }
+@keyframes animate{
+   100%{
+       background-position: -500px 0;
+   }
+}
+
 
 
 
@@ -278,10 +289,19 @@ p a:hover{
 @media(max-width: 855px){
     #acueil h1{
         font-family: "Dxlactos";
-        color: rgb(255, 255, 255);
-        text-shadow: 2px 2px 3px black;
         font-size: 30px;
-   }
+        color: transparent;
+     -webkit-text-stroke: 1px #000000;
+    background: url('img m/pattern.jpg');
+     -webkit-background-clip: text;
+     background-position: 0 0;
+     animation: animate 3s linear 3s infinite alternate;
+}
+@keyframes animate{
+    100%{
+        background-position: -500px 0;
+    }
+}
    section#acueil p{
     font-weight: bold;
     font-size: 25px;
@@ -296,9 +316,18 @@ p a:hover{
 @media(max-width: 420px){
     #acueil h1{
         font-family: "Dxlactos";
-        color: rgb(255, 255, 255);
-        text-shadow: 2px 2px 3px black;
         font-size: 30px;
+        color: transparent;
+        -webkit-text-stroke: 1px #000000;
+       background: url('img m/pattern.jpg');
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: animate 3s linear 3s infinite alternate;
+   }
+   @keyframes animate{
+       100%{
+           background-position: -500px 0;
+       }
    }
    section#acueil p{
     font-weight: bold;
