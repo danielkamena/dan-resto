@@ -52,6 +52,11 @@ nav a:hover{
 .menu{
     display: none;
 }
+.vie{
+    margin-right: 20px;
+
+
+}
 .disparution{
     display: flex;
 }
