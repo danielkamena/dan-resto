@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Dan resto</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+
+        }
+        body{
+            background: url('img m/pexels-polina-tankilevitch-4109256.jpg') center/cover;
+            
+            
+            
+            
+        }
+        header{
+            background: url('img m/chawarma1.png') center/cover;
+            width: 101%;
+            height: 300px;
+            padding: 0;
+            margin: 0;
+            border: 2px solid black;
+            
+
+        }
+        .coca img{
+            width: 80px;
+        }
+        
+       
+        
+        header p{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+            align-items: center;
+            height: 50vh;
+            font-weight: bold;
+            color: rgb(0, 0, 0); 
+            padding: auto;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+        }
+        section h1{
+            margin-top: 0px;
+            padding-top: 50px;
+            color: rgb(189, 0, 0);
+            margin-bottom: 20px;
+            font-size: 40px;
+        }
+        main{
+            display: flex;
+            background-color: rgb(255, 255, 255);
+            min-height: 100px;
+            width: 100%;
+            margin: auto;
+            border: 2px solid rgb(0, 0, 0);
+            box-shadow: 0px 0px 20px 4px black ;
+            border-bottom: 0;
+            
+            
+        
+            
+        }
+        main p{
+            display:flex;
+            text-align: left;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            padding-right: 15px;
+            padding-left: 10px;
+            margin-top: 80px;
+            
+           
+            
+        }
+        main img{
+            height: 400px;
+            width: 50%;
+            justify-content: right;
+            margin-right: 0;
+            transition: transform 0.5s ease-in-out;
+            
+        }
+        h1{
+            display: flex;
+            margin-top: 0px;
+            padding-top: 50px;
+            color: rgb(189, 0, 0);
+            margin-bottom: 20px;
+            font-size: 40px;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 5px rgb(35, 11, 255);;
+        }
+        section#decouverte{
+            display: flex;
+            min-height: 100px;
+            border: 1px solid black;
+            box-shadow: 0px 0px 20px 4px rgba(5, 5, 5, 0.767) ;
+            width: 100%;
+            
+        }
+        section#decouverte p{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding-right: 0px;
+            padding-left: 10px;
+            margin-left: 0;
+            font-weight: bold;
+            margin-top: 0px;
+            margin-right: 0px;
+            background-color: white;
+            
+        }
+        #decouverte img{
+            height: 500px;
+            width: 50%;
+            justify-content: right;
+            align-items: right;
+        }
+        .container{
+            
+             min-height: 700px;
+            margin: 20px auto;
+            padding-left: 25px;
+            padding-right: 25px;
+            
+        }
+        .container h3{
+            color: rgb(3, 13, 71);
+        }
+        
+
+    
+        .yo{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: rgb(238, 75, 75);
+            border: 1px solid black;
+            box-shadow:  0px 0px 20px 4px rgba(5, 5, 5, 0.767) ;
+            
+        }
+        .ka{
+            min-width:200px;
+            flex-basis: 25px;
+            padding: 15px;
+        }
+        .ka img{
+            width: 100%;
+            height: auto;
+            margin-top: 0;
+        }
+        .ka p{
+            font-weight: bold;
+        }
+        .ka h2{
+            color: rgb(255, 238, 0);
+        }
+        .rating {
+            display: flex;
+            gap: 5px;
+            font-size: 24px;
+            color: #FFD700; /* Couleur or pour les étoiles */
+        }
+
+        .rating .fa-regular {
+             color: #ccc; /* Couleur grise pour les étoiles non remplies */
+        }
+
+        .rating .fa-solid {
+            color: #FFD700; /* Couleur or pour les étoiles remplies */
+        }
+        @media(max-width: 590px){
+            section#decouverte{
+                display: block;
+                
+            }
+            #decouverte img{
+                width: 100%;
+            }
+            main{
+                display: block;
+            }
+            main img{
+                width: 100%;
+            }
+            main p{
+                margin-top: 10px;
+            }
+            section#decouverte p{
+                margin-top: 10px;
+            }
+
+        }
+       
+
+        
+
+        
+        
+       
+        
+    </style>
+    <header>
+        <div class="coca">
+            <img src="img m/dk resto.png" alt="logo">
+        </div>
+        
+       
+    </header>
+    <section id="à propos">
+        <h1>à propos</h1>
+        
+
+        
+    </section>
+    <main>
+        
+        <p>Nous vous invitons à savourer des plats exquis , préparés avec passion et des <br>ingrédients de qualité.
+        profitez d'une ambiance  chaleureuse <br>et d'un service attentionné pour une exprérience culinaire inoubliable</p>
+        <img src="img m/samoussa1.png" alt="">
+        
+       
+    </main>
+    
+    
+    
+        <h1>découverte</h1>
+        <section id="decouverte">
+            
+            
+            <p>Découvrez notre menu varié , élaboré avec des ingrédients <br>frais et de qualité pour satisfaire toutes  vos envies.
+                que ce soit pour un repas rapide ou un festin savoureux<br> ,chaque plat est une véritable expérience culinaire.
+            </p>
+            <img src="img m/burger.png" alt="">
+        
+        </section>
+        <h1>menu nourriture</h1>
+        <div class="container">
+            <section id="menu">
+                <div class="yo">
+                    <div class="ka">
+                        <img src="img m/delicious pizza social media template.png" alt="">
+                           <h2>pizza social</h2>
+                         <p>savouré notre pizza comme jamais le meilleur de la place</p>
+                         <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                             <h3>prix: 10$</h3>
+                    </div>
+                    <div class="ka">
+                        <img src="img m/sub1.jpeg" alt="">
+                           <h2>sandwich</h2>
+                         <p>savouré notre sandwich comme jamais le meilleur de la place</p>
+                         <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                             <h3>prix: 10$</h3>
+                    </div>
+                    <div class="ka">
+                        <img src="img m/frite.jpeg" alt="">
+                           <h2>frite</h2>
+                         <p>savouré nos frite comme jamais le meilleur de la place</p>
+                         <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                             <h3>prix: 10$</h3>
+                    </div>
+                    <div class="ka">
+                        <img src="img m/burger.png" alt="">
+                           <h2>burger</h2>
+                         <p>savouré notre burger comme jamais le meilleur de la place</p>
+                         <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                             <h3>prix: 10$</h3>
+                    </div>
+                    <div class="ka">
+                        <img src="img m/chawarma2.png" alt="">
+                           <h2>chawarma</h2>
+                         <p>savouré notre chawarma comme jamais le meilleur de la place</p>
+                         <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                             <h3>prix: 10$</h3>
+                    </div>
+                    <div class="ka">
+                        <img src="img m/poulet.jpeg" alt="">
+                           <h2>poulet frit</h2>
+                         <p>savouré notre poulet frit comme jamais le meilleur de la place</p>
+                         <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                             <h3>prix: 10$</h3>
+                    </div>
+                    
+                </div>
+
+               
+
+            </section>
+        </div>
+
+        
+        <h1>menu boissons</h1>
+        <div class="container">
+            <section id="menu">
+                <div class="yo">
+                    <div class="ka">
+                        <img src="img b/cola can.jpeg" alt="">
+                           <h2>cola cannette</h2>
+                         <p>savouré notre pizza comme jamais le meilleur de la place</p>
+                         <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                             <h3>prix: 10$</h3>
+                    </div>
+                    <div class="ka">
+                        <img src="img b/cola bu.jpeg" alt="">
+                           <h2>coca grand</h2>
+                         <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                             <h3>prix: 10$</h3>
+                    </div>
+                    <div class="ka">
+                        <img src="img b/cola plast.jpeg" alt="">
+                           <h2>coca plastique</h2>
+                         <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                             <h3>prix: 10$</h3>
+                    </div>
+                    <div class="ka">
+                        <img src="img b/milk f.jpeg" alt="">
+                           <h2>milkshake freise</h2>
+                         <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                             <h3>prix: 10$</h3>
+                    </div>
+                    <div class="ka">
+                        <img src="img b/milk v.jpeg" alt="">
+                           <h2>milkshake vanille</h2>
+                         <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                             <h3>prix: 10$</h3>
+                    </div>
+                    <div class="ka">
+                        <img src="img b/milk2.jpeg" alt="">
+                           <h2>milkshake au choco</h2>
+                         <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                             <h3>prix: 10$</h3>
+                    </div>
+                    <div class="ka">
+                        <img src="img b/mirinda.jpeg" alt="">
+                           <h2>mirinda cannette</h2>
+                         <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                             <h3>prix: 10$</h3>
+                    </div>
+                    <div class="ka">
+                        <img src="img b/pepsi cola  can.jpeg" alt="">
+                           <h2>pepsi cannette</h2>
+                         <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                             <h3>prix: 10$</h3>
+                    </div>
+                    
+                    
+                </div>
+
+               
+
+            </section>
+        </div>
+        <div class="contact">
+            <section id="contact">
+                <div class="col-10">
+                    <img src="img m/hc.jpeg" alt="Landing image">
+                </div>
+                <h1>pour plus d'info</h1>
+                    <a href="bb.html"><button class="bt">contactez-nous &#10140;</button></a>
+                    
+            </section>
+        </div>
+
+           
+        
+        
+
+    
+    </body>
+</html>

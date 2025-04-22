@@ -1,0 +1,323 @@
+@font-face {
+    font-family: "Dxlactos";
+    src: url(./asset/font/DxLactos-Regular-free-personal-use.otf);
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: url('img m/burger1.png')  center/cover;
+    min-height: 100vh;
+    
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+nav{
+    display: flex;
+    height: 55px;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.loge img{
+    width: 20%;
+    
+
+
+
+}
+nav a {
+    text-decoration: none;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.863);
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 0 5px;
+    transition: 0,5;
+    font-weight: bolder;
+    
+}
+
+nav a:hover{
+    
+    color: yellow;
+    border-bottom: 2px solid yellow;
+    
+   
+}
+.menu{
+    display: none;
+}
+.disparution{
+    display: flex;
+}
+.btn2{
+    display: none;
+    flex-direction: column;
+    height: 70px;
+    justify-content: space-between;
+
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+    font-weight: 700;
+}
+
+
+
+
+b{
+    color: #ff1010;
+}
+span{
+    color: #0004ec;
+}
+
+ 
+ .logo {
+    position: absolute;
+    
+    top: 0px; /* Ajuste la distance par rapport au haut */
+    bottom: 20px;
+    left: 0px; /* Ajuste la distance par rapport à la gauche */
+    font-size: 1.5rm
+    
+}
+.logo img{
+    width: 80px
+    
+    
+    
+}
+/* Centrer le bouton */
+
+button{
+    background-color: rgb(223, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow:0px 0px 20px 4px rgba(5, 5, 5, 0.767);
+    height: 40px;
+    
+    
+
+}
+button a{
+    font-size: 10px;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 0;
+    width: 100%;
+    font-size: 50px;
+    
+    
+    
+
+}
+button a:hover{
+    color: rgb(0, 0, 0);
+}
+button:hover{
+    background-color: rgb(255, 212, 22);
+    
+}
+section#acueil{
+    margin-top: 70px;
+    display: block;
+    justify-content: center;
+    background: #0000003b;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 400px;
+}
+
+section#acueil p{
+    font-weight: bold;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-shadow: 2px 2px 3px black;
+
+}
+#acueil h1{
+     font-family: "Dxlactos";
+     color: rgb(255, 255, 255);
+     text-shadow: 2px 2px 3px black;
+     font-size: 50px;
+}
+
+
+
+p a{
+    border: none;
+    
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:"Dxlactos";
+    text-shadow: 2px 2px 3px black;
+    
+}
+
+p a:hover{
+    color: #000000;
+    text-shadow: 2px 2px 3px rgb(255, 8, 8);
+}
+
+/* Style pour la section contact */
+.contact{
+    display: block;
+    
+    
+}
+.contact h1{
+    font-size: 20px;
+
+}
+#contact {
+    background: rgba(255, 251, 251, 0.562);
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+    display: block;
+    box-shadow: 0px 0px 20px 4px rgba(5, 5, 5, 0.767);
+    border: 1px solid black;
+}
+
+#contact h2 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+#contact p {
+    color: rgb(0, 0, 0);
+    font-family:  "Dxlactos";
+    
+}
+
+#contact a {
+    color: #1916bb;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(230, 0, 0);
+    border-radius: 5px;
+    
+}
+
+#contact button {
+    background: #efff0f;
+    color: rgb(255, 11, 11);
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#contact button:hover {
+    background: #ff1010;
+    color: white;
+}
+.col-10 img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+@media(max-width: 855px){
+    .menu{
+    display:block
+    }
+    nav a{
+        
+        background-color: rgb(0, 38, 255);
+        color: rgb(226, 230, 226);
+    }
+    .btn2 a:hover{
+        background-color: rgb(255, 255, 25);
+    }
+    .btn{
+        display: none;
+    }
+    
+    .disparution{
+        display: flex;
+    }
+    
+        
+    
+}
+@media(max-width: 855px){
+    #acueil h1{
+        font-family: "Dxlactos";
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 3px black;
+        font-size: 30px;
+   }
+   section#acueil p{
+    font-weight: bold;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-shadow: 2px 2px 3px black;
+
+}
+
+
+}
+@media(max-width: 420px){
+    #acueil h1{
+        font-family: "Dxlactos";
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 3px black;
+        font-size: 30px;
+   }
+   section#acueil p{
+    font-weight: bold;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-shadow: 2px 2px 3px black;
+
+}
+p a{
+    border: none;
+    
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family:"Dxlactos";
+    text-shadow: 2px 2px 3px black;
+    
+}
+
+
+
+}
