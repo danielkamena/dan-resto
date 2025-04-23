@@ -151,8 +151,29 @@ section#acueil p{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: aliceblue;
     text-shadow: 2px 2px 3px black;
+    animation-duration: 3s;
+    animation-name: slidein;
+
 
 }
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    
+      }
+} 
+
+
+
+
+
+
+
+
+
+
+
 #acueil h1{
     font-family: "Dxlactos";
     font-size: 49px;
