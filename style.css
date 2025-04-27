@@ -195,6 +195,21 @@ section#acueil{
        background-position: -500px 0;
    }
 }
+.loge b{
+    color:red;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px black;
+}
+
+
+.loge span{
+      color:#0004ec;
+      font-weight: bold;
+      font-size: 30px;
+      text-shadow: 2px 2px 3px black;
+
+} 
 
 
 
