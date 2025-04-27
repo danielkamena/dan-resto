@@ -2,6 +2,10 @@
     font-family: "Dxlactos";
     src: url(./asset/font/DxLactos-Regular-free-personal-use.otf);
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
